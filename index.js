@@ -28,6 +28,7 @@ window.addEventListener('load', () => {
     words = data;
     setGame();
   })
+  .catch(error => console.log(`Sorry, there was an error with ${error}`));
 });
 
 for (var i = 0; i < inputs.length; i++) {
